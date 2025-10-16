@@ -1,7 +1,9 @@
 import React from "react";
 
+import UsersList from "../components/UsersList";
 const Users = () => {
-    return <h1>Teste</h1>
+    const USERS =  [{id: 'u2', name:'Jack', image: 'nothing'}];
+    return <UsersList items={USERS}/>;
 };
 
 export default Users;
