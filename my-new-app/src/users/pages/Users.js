@@ -2,7 +2,7 @@ import React from "react";
 
 import UsersList from "../components/UsersList";
 const Users = () => {
-    const USERS =  [{id: 'u2', name:'Jack', image: 'nothing'}];
+    const USERS =  [{id: 'u2', name:'Jack', image: 'nothing', places:3}];
     return <UsersList items={USERS}/>;
 };
 
